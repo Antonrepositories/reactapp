@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1a1a1c;
+  color: #fff;
+}
+
+.CryptoPricesApp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 54px;
+  color: #fff;
+}
+
+.poweredBy{
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.poweredBy h2{
+  text-align: center;
+  color: #6237a0;
+  margin-bottom: 10px;
+}
+
+.searchBar{
+  margin-bottom: 54px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.coin-name{
+  margin-bottom: 30px;
+  text-align: center;
+  color: #6237a0;
+}
+.coin-input-name{
+  width:350px;
+  height: 60px;
+  border-radius: 5px;
+  border-color: #6237a0;
+  background-color: #4d4d50;
+}
+.coin-input-name::placeholder{
+  color: #fff;
+}
+
+.info-row{
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 90px;
+  border-bottom: 3px solid #6237a0;
+  width: 1000px;
+}
+.coin-n{
+  width: 320px;
+}
+
+.price {
+  width: 100px;
+  text-align: right;
+}
+
+.volume{
+  width: 120px;
+  text-align: center;
+  margin-left: 15px;
+}
+.hcash{
+  width: 105px;
+  margin-left: 65px;
+}
+.hpercent{
+  width: 105px;
+}
+.last-updt{
+  width: 120px;
+  margin-left: 50px;
+}

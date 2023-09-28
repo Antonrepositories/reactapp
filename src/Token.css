@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.token-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 90px;
+    border-bottom: 3px solid #6237a0;
+    width: 1000px;
+}
+
+.token-image{
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 310px;
+}
+
+.token-image h1 {
+    font-size: 16px;
+    width: 150px;
+}
+
+.token-image img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.tokensymbol {
+    text-transform: uppercase;
+}
+
+.tokenData {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 670px;
+}
+
+.tokenPrice {
+    width: 110px;
+}
+
+.totalVolume {
+    width: 170px;
+}
+
+.change24 {
+    width: 90px;
+}
+
+.change24p {
+    width: 90px;
+}
+
+.red {
+    color: #f00606;
+}
+.green {
+    color: #11d811;
+}
+.update {
+    width: 195px;
+}
