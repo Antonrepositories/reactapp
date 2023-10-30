@@ -26,7 +26,7 @@ function App() {
     <div className="CryptoPricesApp">
       <div className='poweredBy'>
         <h2>Api provider</h2>
-        <img className='Geko' src='https://static.coingecko.com/s/coingecko-logo-white-ea42ded10e4d106e14227d48ea6140dc32214230aa82ef63d0499f9c1e109656.png'></img>
+        <img className='Geko' src='https://static.coingecko.com/s/coingecko-logo-white-ea42ded10e4d106e14227d48ea6140dc32214230aa82ef63d0499f9c1e109656.png' alt=''></img>
       </div>
       <div className='searchBar'>
         <h1 className='coin-name'>Search token name</h1>
